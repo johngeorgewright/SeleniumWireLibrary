@@ -4,7 +4,7 @@ import unittest
 
 import pytest
 from mockito import mock, unstub, when, ANY
-from selenium import webdriver
+from selnium-wire import webdriver
 
 from SeleniumLibrary.keywords import WebDriverCreator
 

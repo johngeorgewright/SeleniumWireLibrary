@@ -1,5 +1,5 @@
 from robot.libraries.BuiltIn import BuiltIn
-from selenium.webdriver.common.by import By
+from seleniumwire.webdriver.common.by import By
 
 from SeleniumLibrary import ElementFinder
 

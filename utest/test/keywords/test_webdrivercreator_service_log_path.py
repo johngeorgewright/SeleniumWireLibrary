@@ -4,7 +4,7 @@ from collections import namedtuple
 import pytest
 
 from mockito import mock, when, unstub, ANY
-from selenium import webdriver
+from selnium-wire import webdriver
 
 from SeleniumLibrary.keywords import WebDriverCreator
 from SeleniumLibrary.utils import WINDOWS

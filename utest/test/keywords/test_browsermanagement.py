@@ -1,6 +1,6 @@
 import pytest
 from mockito import when, mock, verify, verifyNoMoreInteractions, ANY
-from selenium import webdriver
+from selnium-wire import webdriver
 
 from SeleniumLibrary.keywords import BrowserManagementKeywords
 from SeleniumLibrary import SeleniumLibrary

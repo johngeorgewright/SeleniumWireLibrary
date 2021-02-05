@@ -9,7 +9,7 @@ from approvaltests.reporters.generic_diff_reporter_factory import (
 )
 from mockito import mock, when, unstub, ANY
 from robot.utils import WINDOWS
-from selenium import webdriver
+from selnium-wire import webdriver
 
 from SeleniumLibrary.keywords.webdrivertools import SeleniumOptions, WebDriverCreator
 

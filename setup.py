@@ -29,7 +29,7 @@ with open(join(CURDIR, 'requirements.txt')) as f:
     REQUIREMENTS = f.read().splitlines()
 
 setup(
-    name             = 'robotframework-seleniumlibrary',
+    name             = 'robotframework-seleniumwirelibrary',
     version          = VERSION,
     description      = 'Web testing library for Robot Framework',
     long_description = DESCRIPTION,
@@ -45,7 +45,7 @@ setup(
     package_dir      = {'': 'src'},
     packages         = find_packages('src'),
     package_data     ={
-        'SeleniumLibrary':
+        'SeleniumWireLibrary':
             ['*.pyi']
     }
 )

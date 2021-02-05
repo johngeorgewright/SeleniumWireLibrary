@@ -23,7 +23,7 @@ from tokenize import generate_tokens
 
 from robot.api import logger
 from robot.utils import ConnectionCache, StringIO
-from selenium import webdriver
+from seleniumwire import webdriver
 from selenium.webdriver import FirefoxProfile
 
 from SeleniumLibrary.keywords.webdrivertools.sl_file_detector import (

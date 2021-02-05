@@ -19,7 +19,7 @@ import types
 from datetime import timedelta
 from typing import Optional, Union, Any, List
 
-from selenium import webdriver
+from seleniumwire import webdriver
 from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
 
 from SeleniumLibrary.base import keyword, LibraryComponent

@@ -1,4 +1,4 @@
-from selenium import webdriver
+from seleniumwire import webdriver
 
 
 def get_chrome_options():
