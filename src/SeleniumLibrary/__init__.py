@@ -474,6 +474,7 @@ class SeleniumLibrary(DynamicCore):
             TableElementKeywords(self),
             WaitingKeywords(self),
             WindowKeywords(self),
+            WireKeywords(self),
         ]
         self.ROBOT_LIBRARY_LISTENER = LibraryListener()
         self._running_keyword = None
