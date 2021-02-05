@@ -45,6 +45,7 @@ from SeleniumLibrary.keywords import (
     WaitingKeywords,
     WebDriverCache,
     WindowKeywords,
+    WireKeywords
 )
 from SeleniumLibrary.keywords.screenshot import EMBED
 from SeleniumLibrary.locators import ElementFinder

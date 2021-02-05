@@ -29,3 +29,4 @@ from .waiting import WaitingKeywords  # noqa
 from .webdrivertools import WebDriverCache  # noqa
 from .webdrivertools import WebDriverCreator  # noqa
 from .window import WindowKeywords  # noqa
+from .wire import WireKeywords  # noqa
